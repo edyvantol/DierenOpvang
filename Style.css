@@ -1,0 +1,88 @@
+/* CSS voor dierenopvang CatDog. */
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Adamina');
+
+body{
+    background-color: #623B5A;
+    font-family: 'Adamina', serif;
+}
+
+/*Navbar*/
+.nav-link{
+  color: #BA9593;
+}
+
+/*Background voor bovenste balk met logo erin, die moet wit blijven.*/
+.head_container{
+    background-color: white;
+}
+
+/* Dat de titel goed in het midden komt. */
+.titel_div{
+   text-align: center;
+}
+
+#title_page_text{
+    margin-top: 100px;
+}
+
+/*Gridsystem*/
+
+/* Text_container is waar het gridsysteem in zit.*/
+.text_container{
+    background-color: #623B5A;
+    /*margin-bottom: 30px;*/
+}
+
+/*Het gridsysteem bestaat uit 3 blokken.*/
+.Blokken{
+    border: 2px solid #C8FFBE;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.jumbotron-fluid{
+    margin-bottom: 1px;
+}
+
+/* CSS van kopje 'Dieren in het asiel*/
+
+
+/* Grid system, blok 1 in het midden*/
+.Asiel1{
+
+}
+
+/* Buttons om naar katten of honden te gaan.*/
+.Button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #C8FFBE;
+    color: black;
+    border: 2px solid #C8FFBE;
+    padding: 32px 44px;
+    align-items: center;
+}
+
+.button1:hover {
+    background-color: #EDFFAB;
+    border: 9px solid #EDFFAB;
+    color: black;
+    padding: 32px 44px;
+}
